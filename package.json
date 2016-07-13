@@ -1,0 +1,33 @@
+{
+  "name": "typescript-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "react": "15.2.1",
+    "react-dom": "15.2.1"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "enzyme": "2.4.1",
+    "karma": "1.1.1",
+    "karma-chai": "0.1.0",
+    "karma-mocha": "1.1.1",
+    "karma-phantomjs-launcher": "1.0.1",
+    "karma-spec-reporter": "0.0.26",
+    "karma-webpack": "1.7.0",
+    "mocha": "2.5.3",
+    "phantomjs-polyfill": "0.0.2",
+    "ts-loader": "0.8.2",
+    "typescript": "1.8.10",
+    "webpack": "1.13.1",
+    "webpack-config": "5.2.1"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/karma start ./config/karma.conf.js",
+    "test:watch": "npm run test -- --no-single-run"
+  },
+  "keywords": [],
+  "author": "Zheng He <zhenghe@madadata.com>",
+  "license": "MIT"
+}

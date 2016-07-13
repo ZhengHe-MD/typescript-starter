@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "module": "commonjs",
+        "target": "es5",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "outDir": "lib",
+        "moduleResolution": "node",
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "noEmitOnError": true,
+        "jsx": "react"
+    },
+    "files": [
+        "./typings/index.d.ts",
+
+        "./src/index.ts",
+        "./src/__test__/index.spec.ts"
+    ],
+    "filesGlob": [
+    ]
+}
