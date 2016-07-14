@@ -1,0 +1,52 @@
+{
+  "extends": ["tslint:latest", "tslint-react"],
+  "rules": {
+    // tslint:latest
+    "class-name": true,
+    "comment-format": ["check-space", "check-lowercase"],
+    "curly": true,
+    "eofline": true,
+    "indent": "tabs",
+    "interface-name": "always-prefix",
+    "jsdoc-format": true,
+    "max-line-length": 100,
+    "new-parens": true,
+    "no-angle-bracket-type-assertion": true,
+    "no-conditional-assignment": true,
+    "no-console": true,
+    "no-construct": true,
+    "no-constructor-vars": true,
+    "no-default-export": true,
+    "no-duplicate-key": true,
+    "no-duplicate-variable": true,
+    "no-empty": true,
+    "no-invalid-this": true,
+    "no-null-keyword": true,
+    "no-reference": true,
+    "no-require-imports": true,
+    "no-string-literal": true,
+    "no-trailing-whitespace": true,
+    "no-unreachable": true,
+    "no-unused-expression": true,
+    "no-unused-new": true,
+    "no-unused-variable": ["check-parameters", "react"],
+    "no-use-before-declare": true,
+    "no-var-keyword": true,
+    "no-var-requires": true,
+    "one-variable-per-declaration": true,
+    "quotemark": ["single", "jsx-double"],
+    "semicolon": "always",
+    "switch-default": true,
+    "triple-equals": true,
+    
+
+    // tslint-react
+    "jsx-alignment": true,
+    "jsx-no-lambda": true,
+    "jsx-no-string-ref": true,
+    "jsx-self-close": true
+  },
+  "fulesDirectory": [
+
+  ]
+}
